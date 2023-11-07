@@ -2,7 +2,7 @@ React hooks の一つ。書き換え可能な値を.current プロパティ内�
 
 # １．DOM へのアクセス
 
-タグ内に ref 属性で useRef の変数を渡すと、current プロパティで DOM 要素にアクセスできる。(例)input にフォーカスする。
+タグ内に ref 属性で useRef の変数を渡すと、current プロパティで DOM 要素にアクセスできる。(例)input にフォーカスする。  
 (解説)インポートする。useRefをnullで代入する。useEffect(第２引数を空配列)で、レンダリング時に一度だけinput要素にフォーカスする。input要素のref属性に宣言したuseRefを代入する。
 ```
 import { useRef } from "react";
