@@ -4,3 +4,4 @@
   session_start();
 }
 ```
+※session_startはコメントであっても上になにか書いてはいけない
