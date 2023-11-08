@@ -1,6 +1,7 @@
 # 接続
+```
 $pdo = new PDO($connect,USER,PASS);
-
+```
 # SELECT
 ```
 $sql = $pdo->query('select * from products');
