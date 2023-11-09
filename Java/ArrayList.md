@@ -23,6 +23,7 @@ public class Main {
                 int minPrice = Collections.min(cart);
                 total -= minPrice;
                 cart.remove((Integer) minPrice);
+                //cart.remove(0);要素数０番目を削除
             }
         }
         System.out.println(total);
