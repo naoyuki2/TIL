@@ -12,7 +12,7 @@ foreach($sql as $row){
 ```
 $sql=$pdo->prepare('select cart_id from cart where user_id = ?');
 $sql->execute([$_SESSION['id']]);
-$cart_id = $sql->fetchColumn();
+$cart_id = $sql->fetch();
 ```
 # INSERT
 ```
