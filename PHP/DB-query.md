@@ -25,3 +25,8 @@ Insert後の最新のレコードのIDを取得
 ```
 $last_id = $pdo->lastInsertId();
 ```
+# DELETE
+```
+$stmt = $pdo->prepare('DELETE FROM cartDetails');
+$stmt->execute();
+```
