@@ -16,6 +16,9 @@ npm run dev
 ```
  % npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
 ```
+```
+code .
+```
 ルートコンポーネントをChakra Providerでwrapする
 ```
 import React from 'react';
