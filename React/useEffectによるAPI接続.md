@@ -29,3 +29,10 @@ import.meta.env.VITE_WEATHER_API_KEY
 ```
 *.env
 ```
+# 其２ クリーンアップ関数を書け！
+なんかReact18機能でReact.strictモードというのが追加されたらしい。useEffectが２回実行されるんだとさ。それを止めるには、クリーンアップ関数を書けばいいんだって。
+```
+return () => {
+    access_weather()
+}
+```
