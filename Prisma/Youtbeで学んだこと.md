@@ -19,7 +19,7 @@ model User {
 }
 ```
 # CRUD
-すべて非同期処理で実装する
+すべて非同期処理で実装する  
 https://www.prisma.io/docs/orm/prisma-client/queries/crud
 # Node.jsでのcreate文の例
 ```
@@ -41,3 +41,20 @@ https://www.prisma.io/migrate
 # Studio
 テーブルの内容をGUIでわかりやすく表示してくれるコマンド
 https://www.prisma.io/studio
+
+# Relations
+リレーションの作成コード。  
+
+```
+//1
+model User {
+  id    Int    @id @default(autoincrement())
+  posts Post[]
+}
+//多
+model Post {
+  id       Int  @id @default(autoincrement())
+  author   User @relation(fields: [authorId], references: [id])
+  authorId Int
+}
+```
