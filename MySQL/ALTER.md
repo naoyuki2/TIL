@@ -10,3 +10,8 @@ ADD COLUMN admin_flg INT DEFAULT 0;
 ALTER TABLE user
 DROP COLUMN delete_flg;
 ```
+# 変更
+```
+ALTER TABLE recipe_ingredient_link
+MODIFY quantity VARCHAR(100);
+```
