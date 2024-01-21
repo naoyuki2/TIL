@@ -12,3 +12,16 @@
 
 # flex-shrink
 ![image](https://github.com/naoyuki2/TIL/assets/135786069/bebfc74d-c8de-42e1-a5f6-9c3ae8bd42a4)
+
+# position: sticky;
+
+要素を特定の位置に`粘着`させることができる。スクロールされても要素を固定したいときに使う。多分だけど、ヘッダーとかに使う。
+
+下記では、要素がスクロールすると画面の上端に`粘着`する。`top:0`は必須。
+
+```
+セレクタ {
+  position: sticky;
+  top: 0;
+}
+```
