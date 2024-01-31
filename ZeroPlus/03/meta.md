@@ -32,7 +32,7 @@ https://zeroplus.notion.site/meta-d7c12f30f15342b7876831841ab35106
 
 ブラウザのタグに表示されるアイコン
 
-# apple-touch-icon
+# apple-touch-icon（Webクリップアイコン）
 
 ショートカット作成時のアイコン
 
